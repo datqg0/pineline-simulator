@@ -1,0 +1,8 @@
+speed up  4.0  time
+          0    300    600    900    1200    1500    1800    2100    2400    2700    3000
+MOV AX,BX   IF     RR     ALU    DA      RW 
+PUSH AX,BX         IF     RR     ALU     DA      RW 
+POP BX                    IF     RR      ALU     DA      RW 
+LEA AX                           IF      RR      ALU     DA      RW 
+INC CX                                   IF      RR      ALU     DA      RW 
+INC CX                                           IF      RR      ALU     DA      RW 
