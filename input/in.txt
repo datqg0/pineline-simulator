@@ -1,0 +1,14 @@
+So_tien_trinh:
+6
+INS_LABEL:
+(MOV AX,BX)(PUSH AX,BX)(POP BX)(LEA AX)(INC CX)(INC CX)
+IF:
+200
+Register_read:
+200
+ALU_operation:
+200
+Data_access:
+300
+Register_write:
+300
